@@ -1,0 +1,5 @@
+Location,Network,Station,Latitude,Longitude,Elevation
+Ljubinje,DN,DF01,42.934500,18.129600,0.483
+Bileca,DN,DF02,42.877833,18.413667,0.431
+Radovcici,DN,DF04,42.512500,18.345350,0.218
+Sipanska luka,DN,DF05,42.721730,17.865690,0.080
