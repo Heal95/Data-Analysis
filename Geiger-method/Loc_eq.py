@@ -15,11 +15,6 @@ import Iterate as it
 import os
 import numpy as np
 
-# Model info (Balkan earth model) - parameters are appropriate for Dinarides region
-h1 = 30; vp1 = 5.40; vs1 = 3.05
-h2 = 16; vp2 = 6.66; vs2 = 3.83
-vp3 = 8.00; vs3 = 4.60
-
 # Input folder where Bulletins are
 in_folder = './BULLETINS'
 subdir = os.listdir(in_folder)

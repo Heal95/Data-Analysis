@@ -105,7 +105,7 @@ def Geiger_first_it(sta_phase, T, eq_hyp_time_pp, phi_eq_pp, lamb_eq_pp, delta_s
             ci = lef.cPn(vs2, vs3)
     
         L.append([li])
-        B.append([ai, bi, ci, di])
+        B.append([float(ai), float(bi), float(ci), float(di)])
         
     L = np.asarray(L)
     B = np.asarray(B); Bt = B.transpose()
@@ -166,7 +166,7 @@ def Geiger_it(X, sigma, i, stations, phi_eq_pp, lamb_eq_pp, sta_phase, T, eq_hyp
                 ci = lef.cPn(vs2, vs3)
     
             L.append(li)
-            B.append([ai, bi, ci, di])
+            B.append([float(ai), float(bi), float(ci), float(di)])
             
         L = np.asarray(L)
         B = np.asarray(B); Bt = B.transpose()
